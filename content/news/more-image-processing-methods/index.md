@@ -2,13 +2,13 @@
 # type: docs 
 title: More Image Processing Methods
 date: 2022-07-08T11:34:47+08:00
-featured: true
+featured: false
 draft: false
-comment: true
+comment: false
 toc: true
 reward: true
 pinned: false
-carousel: true
+carousel: false
 series:
   - News
 categories:
