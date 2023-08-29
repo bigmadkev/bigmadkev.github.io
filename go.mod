@@ -1,4 +1,4 @@
-module github.com/razonyang/hugo-theme-bootstrap-skeleton
+module github.com/bigmadkev/BigKev.Wiki
 
 go 1.18
 
