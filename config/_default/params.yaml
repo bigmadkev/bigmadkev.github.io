@@ -1,7 +1,5 @@
 mainSections:
-  - blog
-  - posts
-  - news
+  - docs
 
 # titleSeparator: '|' # Title separator. Default to -.
 
@@ -14,10 +12,10 @@ keywords: Hugo, Bootstrap, Blog Theme
 # metaRobots:  # disable Meta Tag robots
 
 # logo: images/logo.png # Logo image. Default to images/logo.webp.
-# logo: false # Disable Logo
-brand: HBS
+logo: false # Disable Logo
+brand: Big Kev Wiki
 
-palette: purple # Default palette. Optional. You'll need to clear the browser cache after modifying this.
+palette: green # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
 # palettes:
 #  - blue
