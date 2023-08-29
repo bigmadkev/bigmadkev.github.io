@@ -1,6 +1,6 @@
 ---
-title: Razon Yang
-description: Gopher, PHPer, Full Stack Engineer.
+title: Kev McCabe
+description: Gopher, CFer, Full Stack Engineer.
 social:
   github: razonyang
   twitter: razonyang

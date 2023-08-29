@@ -1,4 +1,4 @@
-module github.com/bigmadkev/BigKev.Wiki
+module github.com/bigmadkev/bigmadkev.github.io
 
 go 1.18
 
