@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://bigmadkev.github.io/sitemap.xml
