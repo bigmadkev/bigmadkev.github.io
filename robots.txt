@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://bigmadkev.github.io/sitemap.xml
+Sitemap: https://bigkev.wiki/sitemap.xml
