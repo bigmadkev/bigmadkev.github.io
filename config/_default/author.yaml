@@ -1,8 +1,8 @@
 name: Kev McCabe
-# avatar: images/profile.png # Avatar image. Default to "images/profile.webp".
-bio: 'Gopher, PHPer, Full Stack Engineer.'
-company: Company # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
-location: Earth # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
+avatar: images/KevHeadshot.jpg
+bio: 'Agilist.'
+company: Arm # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
+location: Leeds # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
 # about: https://razonyang.com # The external about page. The internal about page will be used if not set.
 params: {
   # layout: compact
@@ -11,3 +11,4 @@ params: {
 social:
   github: bigmadkev
   twitter: bigmadkev
+  linkedin: kevmccabe

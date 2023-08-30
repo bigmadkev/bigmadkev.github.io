@@ -1,7 +1,7 @@
 baseURL: /
-title: Hugo Bootstrap Skeleton
+title: Big Kev Wiki
 theme: github.com/razonyang/hugo-theme-bootstrap
-copyright: 'Copyright © 2016-{year} Razon Yang. All Rights Reserved.'
+copyright: 'Copyright © 1980-{year} Kev McCabe. All Rights Reserved.'
 defaultContentLanguage: en
 # hasCJKLanguage: true # Uncomment it if your content contains Chinese/Japanese/Korean Languages.
 # defaultContentLanguageInSubdir: true
@@ -17,8 +17,8 @@ pygmentsUseClasses: true
 # googleAnalytics: UA-123-45
 # disqusShortname: yourdiscussshortname
 
-blackfriday:
-  hrefTargetBlank: true
+# blackfriday:
+#   hrefTargetBlank: true
 
 taxonomies:
   category: categories

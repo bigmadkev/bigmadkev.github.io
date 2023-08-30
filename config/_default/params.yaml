@@ -3,8 +3,8 @@ mainSections:
 
 # titleSeparator: '|' # Title separator. Default to -.
 
-description: An extreme fast, responsive and feature-rich blog theme for Hugo
-keywords: Hugo, Bootstrap, Blog Theme
+description: THe thoughts and ramblings of Big Kev
+keywords: Agile, Scrum, Kanban, Continuous Improvement, Coaching, Professional Coaching
 # images:
 #   - site-feature-image.jpg
 
@@ -17,7 +17,7 @@ brand: Big Kev Wiki
 
 palette: green # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
-# palettes:
+palettes:
 #  - blue
 #  - blue-gray
 #  - brown
@@ -98,7 +98,7 @@ sidebar:
 
 codeBlock:
   # maxLines: 8
-  lineNos: false # true/false represents that show/hide the line numbers by default.
+  lineNos: true # true/false represents that show/hide the line numbers by default.
 
 post:
   # excerpt: description
@@ -122,20 +122,20 @@ archive:
   # basePath = "/archiv" # The base path of archive pages.
   # dateFormat: 01-02 # Archive date format. Default to Jan 2.
 
-analytics:
+# analytics:
   # baidu:  # Baidu Analytics
 
 # Site verification
-siteVerification:
-  google: 
-  bing: 
-  baidu: 
-  baiduUnion:  # Baidu Union
-  so: 
-  sogou: 
-  shenma: 
+# siteVerification:
+#   google: 
+#   bing: 
+#   baidu: 
+#   baiduUnion:  # Baidu Union
+#   so: 
+#   sogou: 
+#   shenma: 
 
-creativeCommons:
+# creativeCommons:
   # by: true # Credit must be given to you, the creator.
   # nc: true # Only noncommercial use of your work is permitted.
   # nd: true # No derivatives or adaptations of your work are permitted.
@@ -167,11 +167,11 @@ creativeCommons:
   #moderation: false # Same as Staticman's moderation.
 
 # See https://giscus.app
-giscus:
-  repo: "razonyang/hugo-theme-bootstrap-skeleton" # required.
-  repoId: "R_kgDOHJi95g" # required.
-  category: "General" # required.
-  categoryId: "DIC_kwDOHJi95s4CTy6q" # required.
+#giscus:
+  #repo: "razonyang/hugo-theme-bootstrap-skeleton" # required.
+  #repoId: "R_kgDOHJi95g" # required.
+  #category: "General" # required.
+  #categoryId: "DIC_kwDOHJi95s4CTy6q" # required.
   # theme: "dark" # Default to auto.
   # mapping: "title" # Default to pathname.
   # inputPosition: "bottom" # Default to top.
@@ -201,9 +201,9 @@ search:
   # indexName: ""
   # debug: true
 
-reward:
-  alipay: images/reward/alipay.png
-  wechat: images/reward/wechat.png
+# reward:
+  #alipay: images/reward/alipay.png
+  #wechat: images/reward/wechat.png
   #paypal: images/reward/paypal.png
   #patreon: images/reward/patreon.png
   #liberapay: images/reward/liberapay.png
@@ -215,16 +215,16 @@ reward:
   # disabled: true
 
 # Comment or remove this settings to disable font size switcher.
-fontSize:
+#fontSize:
   # extraSmall: .8rem
   # small: .9rem
   # large: 1.1rem
   # extraLarge: 1.2rem
 
-pwa:
-  manifest:
+# pwa:
+  # manifest:
     # name:  # Default to site title.
-    short_name: HBS
+    # short_name: HBS
     # display: fullscreen # Default to standalone.
     # description:  # Default to site description.
     # theme_color: 
@@ -238,25 +238,25 @@ pwa:
     #   sizes: 144x144
     #   src: /images/icons/icon-144x144.png
 
-contact:
-  endpoint: https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd # Backend endpoint, remove this line if you're using Netlify.
+#contact:
+ # endpoint: https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd # Backend endpoint, remove this line if you're using Netlify.
   # file: true # Enable file upload
   # fileField: image # The name of file field.
   # reCaptcha:
     # siteKey: ""
 
-repo:
-  url: https://github.com/razonyang/hugo-theme-bootstrap-skeleton
-  branch: main
+#repo:
+  #url: https://github.com/razonyang/hugo-theme-bootstrap-skeleton
+  #branch: main
   # subPath: exampleSite
   # dateFormat: 02/01/2006, 15:04:05 PM
 
-topAppBar:
+#topAppBar:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
-  social:
-    github: razonyang/hugo-theme-bootstrap
-    patreon: razonyang
-    paypal: razonyang
+  #social:
+    #github: razonyang/hugo-theme-bootstrap
+    #patreon: razonyang
+    #paypal: razonyang
 
 #docs:
   # nav:
