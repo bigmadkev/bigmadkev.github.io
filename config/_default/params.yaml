@@ -117,8 +117,8 @@ post:
   # It supports only of the manual summaries spliting via <!--more-->.
   # readMoreFromContent: true
 
-archive:
-  paginate: 20 # Archive pagination. Default to 100.
+# archive:
+  # paginate: 20 # Archive pagination. Default to 100.
   # basePath = "/archiv" # The base path of archive pages.
   # dateFormat: 01-02 # Archive date format. Default to Jan 2.
 
@@ -135,11 +135,11 @@ archive:
 #   sogou: 
 #   shenma: 
 
-# creativeCommons:
-  # by: true # Credit must be given to you, the creator.
-  # nc: true # Only noncommercial use of your work is permitted.
-  # nd: true # No derivatives or adaptations of your work are permitted.
-  # sa: true # Adaptations must be shared under the same terms.
+creativeCommons:
+  by: true # Credit must be given to you, the creator.
+  nc: true # Only noncommercial use of your work is permitted.
+  nd: true # No derivatives or adaptations of your work are permitted.
+  sa: true # Adaptations must be shared under the same terms.
 
 # utterances:
   # repo: razonyang/hugo-theme-bootstrap-skeleton # Replace with your repository.
