@@ -1,5 +1,5 @@
 ---
-title: HB Theme Template
+# title: Big Kev Wiki
 # menu:
 #   main:
 #     name: Home
