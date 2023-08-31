@@ -1,121 +1,52 @@
-# Hugo Theme Bootstrap Skeleton
+# HB Theme Template
 
-The starter template for [Hugo Bootstrap Theme](https://github.com/razonyang/hugo-theme-bootstrap) that install the theme as a Hugo module.
-
-## Demo
-
-| Platform | URL |
-|---|---|
-| Netlify | https://hbs-skeleton.netlify.app/ |
-| GitHub Pages | https://projects.razonyang.com/hugo-theme-bootstrap-skeleton/ |
-| Cloudflare Pages | https://hbs-skeleton.pages.dev/ |
-| Docker image | See also [Dockerfile](Dockerfile) |
-
-## Usage
-
-Please make sure you have install the [build tools](https://hbs.razonyang.com/v1/en/docs/getting-started/prerequisites/#build-tools) prior to using this template.
-
-**1. Clone this repository**
-
-It's recommending cloning the repo by clicking the `Use this template` button, if you're hosting your code on GitHub.
-
-You can also clone it manually.
-
-```shell
-$ git clone https://github.com/razonyang/hugo-theme-bootstrap-skeleton.git blog
-$ cd blog
-$ rm -rf .git
-$ git init -b main
-```
-
-> The `rm -rf .git` is a dangerous action, please make sure that you enter the right folder.
-
-**2. Modify the `go.mod`**
-
-Replace the following line to yours, such as `module github.com/user/repo`.
-
-```text
-module github.com/razonyang/hugo-theme-bootstrap-skeleton
-```
-
-**3. Commit and push changes to your repository**
-
-```shell
-$ git add -A
-$ git commit -m 'First commit'
-$ git remote set-url origin github.com/user/repo
-$ git push origin main
-```
-
-## Go Proxy(Optional)
-
-If you're located at China mainland without VPN, the Hugo module download may fail.
-
-There are two proxies for this: [GOPROXY.CN](https://goproxy.cn) and [GOPROXY.IO](https://goproxy.io).
-
-```bash
-$ export HUGO_MODULE_PROXY=https://goproxy.cn
-```
-
-> Please note that, Hugo doesn't respect the `GOPROXY` env var, please use `HUGO_MODULE_PROXY` instead.
-
-You can also set the `module.proxy` instead of using env var.
-
-```yaml
-module:
-  proxy: https://goproxy.cn
-```
-
-## Server
-
-**1. Install dependencies**
-
-```shell
-$ npm i
-```
-
-Generally, this step only needs to be performed once for each local project.
-
-**2. Start server**
-
-```shell
-$ hugo server
-```
-
-## Upgrade theme
-
-```shell
-$ hugo mod get github.com/razonyang/hugo-theme-bootstrap@master
-$ hugo mod npm pack
-$ npm update
-$ git add go.mod go.sum package.json package-lock.json
-$ git commit -m 'Update the theme'
-```
-
-You can also replace the `master` with stable [releases](https://github.com/razonyang/hugo-theme-bootstrap/releases).
-
-## Deployment
-
-> The `baseURL` is very important, the CSS, JS and Sitemap require it to be set.
-
-**Please make sure you've change the `baseURL` on `config/production/config.yaml` before deploying your site.**
-
-**Please also remove the `-b {url}` from the following files if you're using this template.**
-
-- `.github/workflows/gh-pages.yml`
-
-This template supports GitHub Pages, Docker image, Netlify out-of-box. See also [Deployment](https://hbs.razonyang.com/v1/en/docs/deployment/) for getting more detail.
-
-The following parameters also need to be tweaked.
-
-- Replace the `utterances.*` or `giscus.*` with your own to get notified when someone comments.
-- Modify the `repo` to your own, or delete it if it's unused.
-- `contact.endpoint`.
-
-There are some hooks under the `layouts/partials/hooks` folder for showing how to use them, please feel free to delete them.
+The starter theme template of [HB Framework](https://hbstack.dev/), live demo: https://theme.hbstack.dev/.
 
 ## Documentations
 
-- [English](https://hbs.razonyang.com/v1/en/)
-- [简体中文](https://hbs.razonyang.com/v1/zh-hans/)
-- [繁體中文](https://hbs.razonyang.com/v1/zh-hant/)
+| English | 简体中文 |
+| ------- | -------- |
+| [Prerequisites](https://hbstack.dev/en/docs/getting-started/prerequisites/) | [先决条件](https://hbstack.dev/zh-hans/docs/getting-started/prerequisites/) |
+| [Installation](https://hbstack.dev/en/docs/getting-started/installation/) | [安裝](https://hbstack.dev/zh-hans/docs/getting-started/installation/) |
+| [Configuration](https://hbstack.dev/en/docs/configuration/) | [配置](https://hbstack.dev/zh-hans/docs/configuration/) |
+| [Content](https://hbstack.dev/en/docs/content/) | [内容](https://hbstack.dev/zh-hans/docs/content/) |
+| [Deployment](https://hbstack.dev/en/docs/deployment/) | [部署](https://hbstack.dev/zh-hans/docs/deployment/) |
+| [Modules](https://hbstack.dev/en/docs/modules/) | [模块](https://hbstack.dev/zh-hans/docs/modules/) |
+
+## Features
+
+- **Fast** and **SEO** friendly: [PageSpeed Insight](https://pagespeed.web.dev/analysis?url=https://theme.hbstack.dev/en/) scored perfect :100: in all four metrics on mobile and desktop.
+- **Multi-purpose**: blog, project documentations, digital garden, gallery, landing pages and so on.
+- **Responsive**: mobile first, built on top of Bootstrap v5.3.
+- :ice_cube: **Modular** and **flexible**: extend features via various modules.
+- :first_quarter_moon: **Dark mode**: light, dark or auto (follow system).
+- :mag: **Search**: powerful client side *fuzzy* search that allows *filtering* and *sorting* of results, as well as searching from all multilingual sites.
+- **PurgeCSS**: remove unused CSS.
+- :rocket: **PWA**:
+  - Installable: add site to home screen.
+  - Offline available: offline page and offline image.
+  - Allow precaching resources, such as CSS, JS and fonts.
+- **Advanced**:
+  - Custom SCSS [variables](https://github.com/hbstack/theme/blob/main/assets/hb/modules/custom/scss/variables.tmpl.scss) and [style](https://github.com/hbstack/theme/blob/main/assets/hb/modules/custom/scss/index.scss).
+  - Custom [JavaScript](https://github.com/hbstack/theme/blob/main/assets/hb/modules/custom/js/index.ts).
+  - Custom HTML markup:
+    - [Before the end of `<head>`](https://github.com/hbstack/theme/blob/main/layouts/partials/hugopress/modules/hb-custom/hooks/head-end.html)
+    - [Before the end of `<body>`](https://github.com/hbstack/theme/blob/main/layouts/partials/hugopress/modules/hb-custom/hooks/body-end.html)
+    - [Custom sidebar widget](https://github.com/hbstack/theme/blob/main/layouts/partials/hugopress/modules/hb-custom/hooks/hb-blog-sidebar.html)
+- :framed_picture: **Images Processing**: process images via URL query string and fragment, such as alignment, resizing, cropping and so on, friendly to Markdown.
+- :computer: **Code block panel**: expand toggle, code copy button, line number toggle and wrap toggle.
+- **Menus**: supports header menus and footer menus.
+- Related posts slide.
+- :framed_picture: Image viewer: zoom in/out image.
+- :card_index_dividers:	**Archives**: group by year and month.
+- :memo: **Multiple authors**: articles can be co-authored.
+- :globe_with_meridians: **Multilingual**.
+- :arrow_left: **RTL**: supports Right-to-Left languages.
+- :arrow_up: Back/Return to top button.
+- Social links: supports header and footer social links.
+- Content: supports KaTex (math), Mermaid (diagrams) and Bootstrap shortcodes.
+- ...
+
+## Screenshot
+
+![Screenshot](https://raw.githubusercontent.com/hbstack/theme/main/images/screenshot.png)

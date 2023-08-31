@@ -3,7 +3,9 @@ title: Blog
 menu:
   main:
     identifier: blog
+    weight: 4
     params:
-      icon: '<i class="fas fa-fw fa-blog"></i>'
-      description: 'Blog Menu Description'
+      icon:
+        vendor: fas
+        name: blog
 ---
