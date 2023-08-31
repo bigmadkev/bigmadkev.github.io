@@ -1,21 +1,23 @@
-description: The starter theme template of HB (Hugo Bootstrap) Framework.
+description: What's in Kev's Head? Well here it is
 
 hb:
   # js_bundle_name: main # the JS bundle name.
   # css_bundle_name: main # the CSS bundle name.
   header:
-    brand: HB # the brand name, leave it empty to use site's title.
+    brand: # the brand name, leave it empty to use site's title.
     logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
-      github: hbstack
-      twitter: razonyang
+      github: bigmadkev
+      twitter: bigmadkev
+      linkedin: kevmccabe
   footer:
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
       _color: true # when false, remove the color of social icons.
-      github: hbstack
-      twitter: razonyang
+      github: bigmadkev
+      twitter: bigmadkev
+      linkedin: kevmccabe
   blog:
     full_width: false # when true, the blog layout takes full width.
     sidebar:
@@ -36,20 +38,20 @@ hb:
         - docs
         - blog
         - tutorials
-    giscus:
-      repo: hbstack/theme
-      repo_id: R_kgDOJP3qtA
-      category_id: DIC_kwDOJP3qtM4CVavM
-  docs:
-    giscus:
-      repo: hbstack/theme
-      repo_id: R_kgDOJP3qtA
-      category_id: DIC_kwDOJP3qtM4CVavM
-  content_panel:
-    repo:
-      service: github # github or gitlab.
-      repo: hbstack/theme
-      branch: main
+    # giscus:
+    #   repo: hbstack/theme
+    #   repo_id: R_kgDOJP3qtA
+    #   category_id: DIC_kwDOJP3qtM4CVavM
+  # docs:
+  #   giscus:
+  #     repo: hbstack/theme
+  #     repo_id: R_kgDOJP3qtA
+  #     category_id: DIC_kwDOJP3qtM4CVavM
+  # content_panel:
+  #   repo:
+  #     service: github # github or gitlab.
+  #     repo: hbstack/theme
+  #     branch: main
       # subpath: exampleSite
   # gallery:
   #   thumbnail_size: "x640"
