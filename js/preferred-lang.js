@@ -1,1 +1,0 @@
-(()=>{var o={fallback:"https://bigkev.wiki/",homes:{en:"https://bigkev.wiki/"}};(()=>{let a=navigator.language||navigator.userLanguage;if(a in o.homes){window.location.href=o.homes[a];return}let e=a.split("-");for(let i in o.homes)if(i.indexOf(e[0])===0){window.location.href=o.homes[i];return}window.location.href=o.fallback})();})();
