@@ -5,12 +5,6 @@ draft: false
 featured: true
 series:
   - Guide
-categories:
-  - Posts
-tags:
-  - Featured Image
-authors:
-  - razonyang
 ---
 
 The example post with an featured image.
