@@ -3,6 +3,7 @@ module github.com/bigmadkev/bigmadkev.github.io
 go 1.19
 
 require (
+	github.com/bigmadkev/hbstack-header v0.0.0-20230901161256-38ac62dc83fa // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
 	github.com/hbstack/back-to-top v0.1.2 // indirect
 	github.com/hbstack/base v0.2.1 // indirect

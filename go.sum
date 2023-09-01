@@ -1,3 +1,5 @@
+github.com/bigmadkev/hbstack-header v0.0.0-20230901161256-38ac62dc83fa h1:44V0REIIc0qgGyz1SO6IIHgliICwCZrjFts+u24oCwY=
+github.com/bigmadkev/hbstack-header v0.0.0-20230901161256-38ac62dc83fa/go.mod h1:DQpLgDSG4qn/dzNIzIogR7MUQ+v9+loDoM/mupr/q0M=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+yb0/t3/rau1j8XlAxLE4CyXns2fqQbyqWfs=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
 github.com/hbstack/back-to-top v0.1.2 h1:eQ05oJjjl6ByFMKjuSCYJDLl5i5DCRyUt7Z5EdsxzIU=
