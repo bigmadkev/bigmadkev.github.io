@@ -12,7 +12,6 @@ require (
 	github.com/hbstack/blog/modules/breadcrumb v0.1.11 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.10 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.10 // indirect
-	github.com/hbstack/blog/modules/giscus v0.1.12 // indirect
 	github.com/hbstack/blog/modules/heading-sign v0.1.12 // indirect
 	github.com/hbstack/blog/modules/post-nav v0.2.9 // indirect
 	github.com/hbstack/blog/modules/related-posts v0.1.11 // indirect
@@ -33,8 +32,6 @@ require (
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.3 // indirect
 	github.com/hbstack/footer v0.2.3 // indirect
 	github.com/hbstack/footer/modules/socials v0.2.2 // indirect
-	github.com/hbstack/gallery v0.5.0 // indirect
-	github.com/hbstack/gallery/modules/breadcrumb v0.1.0 // indirect
 	github.com/hbstack/hb v0.7.1 // indirect
 	github.com/hbstack/header v0.8.2 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.12 // indirect
@@ -42,14 +39,7 @@ require (
 	github.com/hbstack/header/modules/socials v0.1.16 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.1.12 // indirect
 	github.com/hbstack/mermaid v0.1.0 // indirect
-	github.com/hbstack/meta/blog v0.2.7 // indirect
-	github.com/hbstack/meta/content v0.4.6 // indirect
-	github.com/hbstack/meta/docs v0.2.9 // indirect
-	github.com/hbstack/meta/footer v0.2.6 // indirect
-	github.com/hbstack/meta/header v0.2.7 // indirect
 	github.com/hbstack/meta/recommended v0.2.6 // indirect
-	github.com/hbstack/meta/seo v0.2.0 // indirect
-	github.com/hbstack/meta/standard v0.2.8 // indirect
 	github.com/hbstack/noscript v0.2.0 // indirect
 	github.com/hbstack/progress-bar v0.1.0 // indirect
 	github.com/hbstack/pwa v0.1.2 // indirect
