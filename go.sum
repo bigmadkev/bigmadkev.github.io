@@ -1,5 +1,17 @@
 github.com/bigmadkev/hbstack-header v0.0.0-20230901161256-38ac62dc83fa h1:44V0REIIc0qgGyz1SO6IIHgliICwCZrjFts+u24oCwY=
 github.com/bigmadkev/hbstack-header v0.0.0-20230901161256-38ac62dc83fa/go.mod h1:DQpLgDSG4qn/dzNIzIogR7MUQ+v9+loDoM/mupr/q0M=
+github.com/bigmadkev/hbstack-header v0.0.0-20230901171745-fe4dc8a1f192 h1:oBaAst39+hPjcFJ+YKClVu2QwcURDUtaBL2bjebb1Tg=
+github.com/bigmadkev/hbstack-header v0.0.0-20230901171745-fe4dc8a1f192/go.mod h1:DQpLgDSG4qn/dzNIzIogR7MUQ+v9+loDoM/mupr/q0M=
+github.com/bigmadkev/hbstack-header v0.0.0-20230901204114-7e06dc1ffbed h1:ZBOTFJMj4As9wwYA/WCl8rwluf/uABFMA+OfJOC2Ahs=
+github.com/bigmadkev/hbstack-header v0.0.0-20230901204114-7e06dc1ffbed/go.mod h1:xmcFnFO4ENL3xkToHlcLsUQMLyGikUrYp7XRbUwN6vU=
+github.com/bigmadkev/hbstack-header/modules/language-picker v0.0.0-20230901212149-191ad75e6a98 h1:AXc3cWyERC7z+D+xZvhxLwQMDsgmIvWz5Jn3aZtKbu0=
+github.com/bigmadkev/hbstack-header/modules/language-picker v0.0.0-20230901212149-191ad75e6a98/go.mod h1:1RWts8oCkEV9quYVqnhaThYRSsfDfBnoeUg1qY7XN68=
+github.com/bigmadkev/hbstack-header/modules/search v0.0.0-20230901212149-191ad75e6a98 h1:ngqCRxwTKI/Br7rTKk6vp689noTMHwD5QzXg3C9xIf0=
+github.com/bigmadkev/hbstack-header/modules/search v0.0.0-20230901212149-191ad75e6a98/go.mod h1:UavnGdevgFK2gM3jkUV+TMD10H5uSXSytpL/Ih5BafU=
+github.com/bigmadkev/hbstack-header/modules/socials v0.0.0-20230901212149-191ad75e6a98 h1:itq7ryb1cJhA7EQP1TMDlejlshEvOVlVOHEN6H2UPO8=
+github.com/bigmadkev/hbstack-header/modules/socials v0.0.0-20230901212149-191ad75e6a98/go.mod h1:MWnVscFQB1gLSCP2Bmdi4el/JiB481yrYFGwx+h8r/U=
+github.com/bigmadkev/hbstack-header/modules/theme-toggle v0.0.0-20230901212149-191ad75e6a98 h1:W+R7kjOLJpErhspa1EXqvREVr8jACN4RxY151dnY1CY=
+github.com/bigmadkev/hbstack-header/modules/theme-toggle v0.0.0-20230901212149-191ad75e6a98/go.mod h1:ivoWO+FmJ7o5PRNsubwzVf1X5yWhDiFffSeM8O20qzQ=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+yb0/t3/rau1j8XlAxLE4CyXns2fqQbyqWfs=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
 github.com/hbstack/back-to-top v0.1.2 h1:eQ05oJjjl6ByFMKjuSCYJDLl5i5DCRyUt7Z5EdsxzIU=
