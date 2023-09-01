@@ -1,9 +1,13 @@
 module github.com/bigmadkev/bigmadkev.github.io
 
-go 1.19
+go 1.21
 
 require (
-	github.com/bigmadkev/hbstack-header v0.0.0-20230901161256-38ac62dc83fa // indirect
+	github.com/bigmadkev/hbstack-header v0.0.0-20230901204114-7e06dc1ffbed // indirect
+	github.com/bigmadkev/hbstack-header/modules/language-picker v0.0.0-20230901212149-191ad75e6a98 // indirect
+	github.com/bigmadkev/hbstack-header/modules/search v0.0.0-20230901212149-191ad75e6a98 // indirect
+	github.com/bigmadkev/hbstack-header/modules/socials v0.0.0-20230901212149-191ad75e6a98 // indirect
+	github.com/bigmadkev/hbstack-header/modules/theme-toggle v0.0.0-20230901212149-191ad75e6a98 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
 	github.com/hbstack/back-to-top v0.1.2 // indirect
 	github.com/hbstack/base v0.2.1 // indirect
