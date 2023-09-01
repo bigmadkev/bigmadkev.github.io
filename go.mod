@@ -1,6 +1,6 @@
 module github.com/bigmadkev/bigmadkev.github.io
 
-go 1.17
+go 1.18
 
 require (
 	github.com/bigmadkev/hbstack-header v0.0.0-20230901204114-7e06dc1ffbed // indirect
