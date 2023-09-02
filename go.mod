@@ -3,11 +3,6 @@ module github.com/bigmadkev/bigmadkev.github.io
 go 1.18
 
 require (
-	github.com/bigmadkev/hbstack-header v0.0.0-20230902110534-01b29e4964b3 // indirect
-	github.com/bigmadkev/hbstack-header/modules/language-picker v0.0.0-20230902110534-01b29e4964b3 // indirect
-	github.com/bigmadkev/hbstack-header/modules/search v0.0.0-20230902110534-01b29e4964b3 // indirect
-	github.com/bigmadkev/hbstack-header/modules/socials v0.0.0-20230902110534-01b29e4964b3 // indirect
-	github.com/bigmadkev/hbstack-header/modules/theme-toggle v0.0.0-20230902110534-01b29e4964b3 // indirect
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20003 // indirect
 	github.com/hbstack/back-to-top v0.1.2 // indirect
 	github.com/hbstack/base v0.2.1 // indirect
@@ -45,6 +40,7 @@ require (
 	github.com/hugomods/icons/vendors/font-awesome v0.6.1 // indirect
 	github.com/hugomods/images v0.7.0 // indirect
 	github.com/hugomods/katex v0.2.0 // indirect
+	github.com/hugomods/search v0.4.5 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.0 // indirect
 	github.com/hugomods/seo/modules/favicons v0.2.0 // indirect
 	github.com/hugomods/seo/modules/open-graph v0.1.0 // indirect
