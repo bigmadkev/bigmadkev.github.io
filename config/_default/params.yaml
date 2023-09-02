@@ -6,6 +6,7 @@ hb:
   header:
     brand: # the brand name, leave it empty to use site's title.
     logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
+    break_point: 'md'
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
       github: bigmadkev
