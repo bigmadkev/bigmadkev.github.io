@@ -1,6 +1,7 @@
 ---
 title: "My First Hug.io Post"
-date: 2023-09-02T23:02:11+01:00
+date: 2023-09-02T23:02:11+01:0
+draft: true
 description: 
 noindex: false
 featured: false
