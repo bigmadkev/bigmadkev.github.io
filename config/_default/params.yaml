@@ -20,24 +20,24 @@ hb:
       twitter: bigmadkev
       linkedin: kevmccabe
   blog:
-    full_width: false # when true, the blog layout takes full width.
-    sidebar:
-      posts:
-        recent_count: 5 # the number of recent posts.
-        featured_count: 5 # the number of featured posts.
-      taxonomies:
-        count: true # whether to show the number of posts associated to the item.
-        limit: 10 # the maximum number of the item.
-    paginate: 12 # paginate.
-    post_thumbnail_placeholder: HB THEME # the text of thumbnail placeholder, default to site title.
+    full_width: true # when true, the blog layout takes full width.
+    # sidebar:
+    #   posts:
+    #     recent_count: 5 # the number of recent posts.
+    #     featured_count: 5 # the number of featured posts.
+    #   taxonomies:
+    #     count: true # whether to show the number of posts associated to the item.
+    #     limit: 10 # the maximum number of the item.
+    # paginate: 12 # paginate.
+    # post_thumbnail_placeholder: HB THEME # the text of thumbnail placeholder, default to site title.
     # post_thumbnail: false # whether to show the thumbnails.
     # post_date_format: ":date_long" # see https://gohugo.io/functions/dateformat/#datetime-formatting-layouts.
     home: # homepage settings.
       taxonomies: false # remove the taxonomies stat from the homepage.
-      featured_posts: 5 # the number of the featured posts.
+      # featured_posts: 5 # the number of the featured posts.
       main_sections: # leave it empty to include all regular pages.
         - blog
-        - tutorials
+        # - tutorials
     # giscus:
     #   repo: hbstack/theme
     #   repo_id: R_kgDOJP3qtA
