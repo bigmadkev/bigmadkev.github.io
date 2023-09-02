@@ -1,13 +1,12 @@
 baseURL: https://bigkev.wiki/
 title: Big Kev Wiki
-# Copyright, the {year} is the placeholder of this year.
 copyright: "Copyright © 1980-{year} All Rights Reserved."
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false # disable this to remove the default language code from URL, i.e. /en/docs -> /docs.
 enableRobotsTXT: true
 timeout: 120s # images processing takes a long time, it's recommended to commit the resources folder for improve the build performance.
 enableEmoji: true
-
+newContentEditor: "code"
 permalinks:
   blog: /blog/:year/:month/:title
 
@@ -61,7 +60,7 @@ module:
     # other modules
     # - path: github.com/hugomods/google-analytics
     # - path: github.com/hugomods/google-adsense
-    
+
 # recommended modules
     # check which modules were imported by recommended module by "hugo mod graph | grep recommended".
     # see also https://hbstack.dev/en/docs/modules/meta/.
@@ -119,4 +118,3 @@ security:
       - ^HUGO
       - CI$
       - PWD
-
