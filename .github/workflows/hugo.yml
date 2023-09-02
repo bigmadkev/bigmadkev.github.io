@@ -9,6 +9,10 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+  
+    # Publish At 00 minutes past the hour, between 08:00 AM and 08:59 PM
+  schedule:
+    - cron: '00 08-20 * * *'
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
