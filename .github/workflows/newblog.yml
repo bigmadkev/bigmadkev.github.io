@@ -60,10 +60,11 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          TITLE=${{github.event.inputs.title}}
+          TITLE="${{github.event.inputs.title}}"
           TITLE=${TITLE// /-} # replace all spaces with hyphens
+          echo ${TITLE}
           hugo \
-            new content /${{ github.event.inputs.archetype }}/$TITLE/index.md \
+            new content /${{ github.event.inputs.archetype }}/${TITLE}/index.md \
             -k ${{ github.event.inputs.archetype }} \
             --force
 
