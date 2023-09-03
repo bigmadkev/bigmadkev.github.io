@@ -64,7 +64,7 @@ jobs:
             new content ${{ github.event.inputs.archetype }}/${TITLE}/index.md \
             --force \
             -k ${{ github.event.inputs.archetype }} \
-            -c ${{ github.workspace }} \
+            -c ${{ github.workspace }}/content \
             -e ${HUGO_ENV}
       - name: Commit New Content
         env:
