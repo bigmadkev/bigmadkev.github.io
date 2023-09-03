@@ -59,7 +59,7 @@ jobs:
             -k ${{ github.event.inputs.archetype }} \
             -c ${{ github.workspace }} \
             -e ${HUGO_ENV}
-      - name: Commit changes
+      - name: Commit New Content
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
