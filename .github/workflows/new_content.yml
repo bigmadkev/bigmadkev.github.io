@@ -6,10 +6,17 @@ on:
   workflow_dispatch:
     inputs:
       archetype:
-        description: 'Define arche type'     
+        type: choice
+        description: 'Define arche type'
+        options:
+          - 'blog'
+          - 'docs'
+          - 'tutorials'
+          - 'gallery'
         required: true
         default: 'blog'
       title:
+        type: string
         description: 'Define content title'     
         required: true
         default: ''
