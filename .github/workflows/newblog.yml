@@ -47,11 +47,10 @@ jobs:
           fetch-depth: 0
       - name: Create new content with Hugo
         run: |
-          ls ${{ github.workspace }}
+          cd ${{ github.workspace }}
           TITLE="${{github.event.inputs.title}}"
           TITLE=${TITLE// /-} # replace all spaces with hyphens
           hugo \
-            new content /${{ github.event.inputs.archetype }}/${TITLE}/index.md \
-            -k ${{ github.event.inputs.archetype }} \
+            new content ${{ github.event.inputs.archetype }}/${TITLE}/index.md \
             --force \
             -c ${{ github.workspace }}
