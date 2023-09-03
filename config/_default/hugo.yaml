@@ -6,7 +6,6 @@ defaultContentLanguageInSubdir: false # disable this to remove the default langu
 enableRobotsTXT: true
 timeout: 120s # images processing takes a long time, it's recommended to commit the resources folder for improve the build performance.
 enableEmoji: true
-newContentEditor: "code"
 permalinks:
   blog: /blog/:year/:month/:title
 
