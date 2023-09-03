@@ -59,3 +59,14 @@ jobs:
             -k ${{ github.event.inputs.archetype }} \
             -c ${{ github.workspace }} \
             -e ${HUGO_ENV}
+      - name: Commit changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+            git config --global user.email "no-reply@github.com"
+            git config --global user.name "GitHub Actions"
+            git add ${{ github.workspace }}/content/**
+            git commit -m "Creating New Content"
+            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+            git push
+        
