@@ -57,6 +57,7 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
+          CONTENT_FOLDER: content
         run: |
           TITLE="${{ github.event.inputs.title }}"
           TITLE=${TITLE// /-} # replace all spaces with hyphens
@@ -64,7 +65,7 @@ jobs:
             new content ${{ github.event.inputs.archetype }}/${TITLE}/index.md \
             --force \
             -k ${{ github.event.inputs.archetype }} \
-            -c ${{ github.workspace }}/content \
+            -c ${{ github.workspace }}/${CONTENT_FOLDER} \
             -e ${HUGO_ENV}
       - name: Commit New Content
         env:
@@ -72,7 +73,7 @@ jobs:
         run: |
             git config --global user.email "no-reply@github.com"
             git config --global user.name "GitHub Actions"
-            git add ${{ github.workspace }}/contents/\*
+            git add ${{ github.workspace }}/${CONTENT_FOLDER}/\*
             git commit -m "Creating New Content"
             git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
             git push
