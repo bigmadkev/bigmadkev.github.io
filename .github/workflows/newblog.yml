@@ -63,8 +63,7 @@ jobs:
           TITLE=${{github.event.inputs.title}}
           TITLE=${TITLE// /-} # replace all spaces with hyphens
           hugo \
-            new \
-            /${{ github.event.inputs.archetype }}/$TITLE/index.md \
+            new content /${{ github.event.inputs.archetype }}/$TITLE/index.md \
             -k ${{ github.event.inputs.archetype }} \
             --force
 
