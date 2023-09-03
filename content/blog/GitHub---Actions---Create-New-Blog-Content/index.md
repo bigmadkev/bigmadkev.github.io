@@ -1,10 +1,10 @@
 ---
-title: "My First Hugo.io Post"
-date: 2023-09-02T23:02:11+01:00
+title: "GitHub - Actions - Create New Blog Content"
+date: 2023-09-03T17:19:42Z
 draft: true
 description: 
 noindex: false
-featured: true
+featured: false
 pinned: false
 # comments: false
 series:
