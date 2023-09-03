@@ -1,5 +1,5 @@
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: Deploy Hugo site to Pages
+name: New Content
 
 on:
   # Allows you to run this workflow manually from the Actions tab
@@ -63,7 +63,7 @@ jobs:
           TITLE=${{github.event.inputs.title}}
           TITLE=${TITLE// /-} # replace all spaces with hyphens
           hugo \
-            content \
+            new \
             /${{ github.event.inputs.archetype }}/$TITLE/index.md
             -k ${{ github.event.inputs.archetype }} \
             --force
