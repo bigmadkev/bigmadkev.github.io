@@ -21,7 +21,7 @@ module:
     # - path: github.com/hbstack/gallery/modules/breadcrumb
 
     # syntax highlighting, see https://hbstack.dev/en/docs/modules/syntax-highlighting/.
-    # - path: github.com/hbstack/syntax-highlighting/styles/github-dark
+    - path: github.com/hbstack/syntax-highlighting/styles/github-dark
   
     # icons modules
     - path: github.com/hugomods/icons/vendors/font-awesome
@@ -91,7 +91,8 @@ markup:
     noClasses: false
     lineNos: true
     lineNumbersInTable: false
-
+    guessSyntax: true
+    
 # see https://gohugo.io/content-management/related/#configure-related-content
 related:
   includeNewer: true
@@ -112,8 +113,15 @@ related:
   toLower: false
 
 security:
+  enableInlineShortcodes: false
+  exec:
+    allow: ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^pandoc$', '^nvim$', 'code$']
+    osEnv: ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
   funcs:
     getenv:
       - ^HUGO
       - CI$
       - PWD
+  http:
+    methods: ['(?i)GET|POST']
+    urls: ['.*']
