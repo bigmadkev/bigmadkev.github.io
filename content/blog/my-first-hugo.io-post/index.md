@@ -40,7 +40,7 @@ Undo repointing
 go mod edit -dropreplace="github.com/hbstack/socials"
 ```
 
-#### Heading 4
+#### Powershell Info
 
 ```powershell
 #display powershell version
@@ -138,3 +138,7 @@ Enable-WindowsOptionalFeature -FeatureName "Containers-DisposableClientVM" -All 
 
 Open your start menu search for sandbox and you'll find windows sandbox.
 Open this, and it will open a clean install of windows that you can use to test scripts out or software without screwing your main machine up. Once you shut it down everything is lost.
+
+
+## Startup folder
+start > run > shell:startup
