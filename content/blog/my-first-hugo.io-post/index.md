@@ -89,6 +89,21 @@ Successfully installed
 2 package(s) have version numbers that cannot be determined. Use --include-unknown to see all results.
 ```
 
+## Fix Git Context menu failing
+
+1. Uninstall git
+```powershell
+winget uninstall git
+```
+2. Open regedit as an admin
+1. Go to 'HKEY_CURRENT_USER/Software/Classes/Directory/Background'
+1. Delete key 'shell'
+1. Reinstall git
+```powershell
+winget install git
+```
+
+
 ## Windows Sandbox
 Useful for testing scripts, if not already enabled you need to run the following in an elevated windows powershell terminal:
 ```powershell
