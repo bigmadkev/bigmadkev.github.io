@@ -10840,7 +10840,7 @@ body {
     --hb-header-navbar-active-color: var(--hb-primary-text-emphasis); }
 
 html {
-  scroll-padding-top: var(--hb-top-offset); }
+  scroll-padding-top: 68px; }
 
 .hb-header {
   margin-bottom: calc(var(--hb-top-offset) + .5rem); }
@@ -10853,7 +10853,7 @@ html {
     width: -moz-max-content;
     width: max-content;
     word-break: keep-all; }
-    @media (max-width: 991.98px) {
+    @media (max-width: 1399.98px) {
       .hb-header .dropdown-item-desc {
         max-width: 280px; } }
 .hb-header-nav {
@@ -10890,7 +10890,7 @@ html {
       --hb-header-navbar-active-color
     ); }
 
-@media (min-width: 992px) {
+@media (min-width: 1400px) {
   .hb-header-menus .hb-header-menu {
     margin: 0 0.125rem;
     padding-left: 0;
