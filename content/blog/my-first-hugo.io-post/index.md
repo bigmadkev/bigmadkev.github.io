@@ -90,6 +90,7 @@ Successfully installed
 ```
 
 ## Fix Git Context menu failing
+### Hammer Option
 
 1. Uninstall git
 ```powershell
@@ -98,11 +99,36 @@ winget uninstall git
 2. Open regedit as an admin
 1. Go to 'HKEY_CURRENT_USER/Software/Classes/Directory/Background'
 1. Delete key 'shell'
+2. Open regedit
+1. CTRL+F - Look at Keys only and check Match Whole String Only - git_shell
+1. Delete key
+1. F3 to find next and delete key again and repeat
 1. Reinstall git
 ```powershell
 winget install git
 ```
+6. Restart Explorer 
 
+### Less Hammer
+1. Open regedit as an admin
+1. CTRL+F - Look at Keys only and check Match Whole String Only - git_shell
+1. point items to correct place example below
+
+```registry
+[HKEY_CLASSES_ROOT\Directory\background\shell\git_gui]
+@="Open Git &GUI here"
+"Icon"="C:\\Program Files\\Git\\cmd\\git-gui.exe"
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\git_gui\command]
+@="\"C:\\Program Files\\Git\\cmd\\git-gui.exe\" \"--working-dir\" \"%v.\""
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\git_shell]
+@="Open Git Ba&sh here"
+"Icon"="C:\\Program Files\\Git\\git-bash.exe"
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\git_shell\command]
+@="\"C:\\Program Files\\Git\\git-bash.exe\" \"--cd=%v.\""
+```
 
 ## Windows Sandbox
 Useful for testing scripts, if not already enabled you need to run the following in an elevated windows powershell terminal:
