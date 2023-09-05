@@ -7,8 +7,10 @@ require (
 	github.com/KaTeX/KaTeX v0.16.8 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
 	github.com/hbstack/base v0.2.1 // indirect
+	github.com/hbstack/blog/modules/content-panel v0.1.11 // indirect
 	github.com/hbstack/blog/modules/sidebar/posts v0.3.3 // indirect
 	github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.3 // indirect
+	github.com/hbstack/blog/modules/toc-scrollspy v0.1.10 // indirect
 	github.com/hbstack/breadcrumb v0.2.0 // indirect
 	github.com/hbstack/carousel v0.2.3 // indirect
 	github.com/hbstack/featured-image v0.1.1 // indirect
