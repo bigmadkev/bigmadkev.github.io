@@ -36,7 +36,7 @@ Allows the colaboration on modules without having to change a load of the stack.
 go mod edit -replace="github.com/hbstack/socials=C:\Users\kev\hbstack-socials"
 ```
 Undo repointing
-```
+```powershell
 go mod edit -dropreplace="github.com/hbstack/socials"
 ```
 
@@ -100,7 +100,7 @@ winget uninstall git
 1. Go to 'HKEY_CURRENT_USER/Software/Classes/Directory/Background'
 1. Delete key 'shell'
 2. Open regedit
-1. CTRL+F - Look at Keys only and check Match Whole String Only - git_shell
+1. CTRL+F - Look at Keys only and uncheck Match Whole String Only - git_
 1. Delete key
 1. F3 to find next and delete key again and repeat
 1. Reinstall git
@@ -111,7 +111,7 @@ winget install git
 
 ### Less Hammer
 1. Open regedit as an admin
-1. CTRL+F - Look at Keys only and check Match Whole String Only - git_shell
+1. CTRL+F - Look at Keys only and uncheck Match Whole String Only - git_
 1. point items to correct place example below
 
 ```registry
