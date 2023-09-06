@@ -60,7 +60,7 @@ jobs:
           CONTENT_FOLDER: content
         run: |
           TITLE="${{ github.event.inputs.title }}"
-          TITLE=${TITLE//\W/-} # replace all spaces with hyphens
+          TITLE=${TITLE//[^[:alnum:]]/-} # replace all non alpha numerics with hyphens
           hugo \
             new content ${{ github.event.inputs.archetype }}/${TITLE}/index.md \
             --force \
