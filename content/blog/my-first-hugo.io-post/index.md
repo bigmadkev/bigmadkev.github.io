@@ -149,3 +149,32 @@ installing Git with EnabledSymLinks and windows terminal intergratio
 ```powershell
 winget install Git.Git --custom "/o:EnableSymlinks=Enabled /Components=ext,ext\shellhere,ext\guihere,gitlfs,assoc,assoc_sh,windowsterminal,scalar"
 ```
+## Symbolic Links and Git on Windows
+Create the Symbolic link using gitbash and NOT Windows PowerShell
+
+```gitbash
+#Set global variable to use symlinks
+git config --global core.symlinks true
+
+#check the config is set
+git config --show-scope --show-origin core.symlinks
+
+#clone remote repo
+cd /
+git clone https://github.com/bigmadkev/studious-fiesta.git
+
+#create symbolic link
+cd studious-fiesta
+ln -s '/c/Users/kevmcc01/OneDrive - Arm/Documents/WindowsPowerShell/' WindowsPowerShell
+
+#New symbolic link isn't under version control
+git ls-files
+#Add symbolic link folder to version control
+git add WindowsPowerShell/
+#The new folder is under version control
+git ls-files
+#Local commit of the changes
+git commit -m "Finally adding the Windows PowerShell folder in correctly"
+#Push changes to remote
+git push
+```
