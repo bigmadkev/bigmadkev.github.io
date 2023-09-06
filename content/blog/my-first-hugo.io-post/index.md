@@ -142,3 +142,10 @@ Open this, and it will open a clean install of windows that you can use to test 
 
 ## Startup folder
 start > run > shell:startup
+
+
+## Winget Custom Install
+installing Git with EnabledSymLinks and windows terminal intergratio
+```powershell
+winget install Git.Git --custom "/o:EnableSymlinks=Enabled /Components=ext,ext\shellhere,ext\guihere,gitlfs,assoc,assoc_sh,windowsterminal,scalar"
+```
