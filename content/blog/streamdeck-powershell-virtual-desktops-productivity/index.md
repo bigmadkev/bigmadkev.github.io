@@ -160,7 +160,7 @@ Get-Module
 
 Note: If your new module doesn't show up – enter the command:
 ```powershell
-Import-Module -Name  $ModuleName -Force
+Import-Module -Name $ModuleName -Force
 
 Get-Module -ListAvailable
 ```
