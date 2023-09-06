@@ -1,0 +1,34 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+        {
+            "type": "npm",
+            "script": "dev",
+            "problemMatcher": [],
+            "label": "npm: dev",
+            "detail": "hugo server --gc --disableFastRender --enableGitInfo -D",
+            "group": {
+                "kind": "build"
+            }
+        },
+        {
+            "label": "New Content",
+            "type": "shell",
+            "command": "$TITLE=('${input:title}' -replace '\\W','-').toLower(); hugo new content ${input:archetype}/${TITLE}/index.md --force -k ${input:archetype}",
+            "problemMatcher": []
+        }
+    ],
+    "inputs": [
+		{
+			"id": "title",
+			"description": "Enter the title of the new post",
+			"type": "promptString"
+		}, {
+            "id": "archetype",
+            "description": "The Arch type of the new content",
+            "type": "pickString",
+            "options": ["blog","docs","tutorials","gallery"],
+            "default": "blog"
+        }
+	]
+}
