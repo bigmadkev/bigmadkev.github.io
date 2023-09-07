@@ -1,0 +1,16 @@
+{{ $file := .Get "file"}}
+{{ $shouldRender := default true (.Get "render") }}
+{{ with resources.GetRemote $file }}
+  {{ with .Err }}
+    {{ errorf "%s" . }}
+  {{ else }}
+    {{ if $shouldRender }}
+        {{ $lang := path.Ext $file | strings.TrimPrefix "." }}
+        {{ highlight .Content $lang }}
+    {{ else }}
+        {{ .Content | $.Page.RenderString }}
+    {{ end }}
+  {{ end }}
+{{ else }}
+  {{ errorf "Unable to get remote resource." }}
+{{ end }}

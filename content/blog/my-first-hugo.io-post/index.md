@@ -153,7 +153,7 @@ winget install Git.Git --custom "/o:EnableSymlinks=Enabled /Components=ext,ext\s
 ## Symbolic Links and Git on Windows
 Create the Symbolic link using gitbash and NOT Windows PowerShell
 
-```gitbash
+```bash
 #Set global variable to use symlinks
 git config --global core.symlinks true
 
@@ -181,3 +181,10 @@ git push
 ```
 
 ![External Example](https://thumbnails.production.thenounproject.com/m7movu-7I8zOyGZHzsqcJSZ6aBA=/fit-in/1000x1000/photos.production.thenounproject.com/photos/A3587720-549F-48A9-9B6B-A3BBBF2CB4B5.jpg)
+
+
+## Raw code file from GitHub
+{{< ghcode file="https://raw.githubusercontent.com/gohugoio/hugo/master/commands/env.go" >}}
+
+## Markdown from GitHub
+{{< ghcode file="https://raw.githubusercontent.com/gohugoio/hugo/master/README.md" render=false >}}
