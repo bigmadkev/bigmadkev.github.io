@@ -36,4 +36,4 @@ require (
 	github.com/krisk/Fuse v6.6.2+incompatible // indirect
 )
 
-replace github.com/hbstack/featured-image => C:\Users\kev\hbstack\featured-image
+<!-- replace github.com/hbstack/featured-image => C:\Users\kev\hbstack\featured-image -->
