@@ -3,6 +3,5 @@ hb:
     bottom: 20px
     repo:
       branch: main
-      repo: bigmadkev/bigmadkev.github.io
+      repo: bigmadkev/bigmadkev.github.io/
       service: github
-      subpath: content
