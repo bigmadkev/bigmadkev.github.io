@@ -26,6 +26,7 @@ images:
 ---
 
 https://learn.microsoft.com/en-us/powershell/module/powershellget/
+https://adamtheautomator.com/powershell-modules/
 https://valoremreply.com/post/creatingapowershellmodule/
 https://blog.devolutions.net/2021/03/local-powershell-module-repository-no-server-required/
 
