@@ -38,3 +38,4 @@ require (
 )
 
 // replace github.com/hbstack/featured-image => C:\Users\kev\hbstack\featured-image
+// replace github.com/hbstack/blog => C:\Users\kev\hbstack\blog
