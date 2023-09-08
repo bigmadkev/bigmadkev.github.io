@@ -108,7 +108,7 @@ These steps will register your local folder as a PSRepository and Package your P
 $ModuleRepoName='LocalModules'
 $ModulesPath=$env:PSModulePath.split(';')[0]
 $ModuleName='TestModule'
-$ModuleVersion='1.0.1'
+$ModuleVersion='0.0.1'
 
 #What Repositories do we have registered?
 Get-PSRepository
@@ -136,7 +136,7 @@ $manifest = @{
     Author              = 'Kevin McCabe'
     CompanyName         = 'Red Giraffes'
     Description         = 'Your module description should be succinct'
-    FunctionsToExport   = '{Write-HelloWorld}' # This will export all functions as commandlets
+    FunctionsToExport   = '*' # This will export all functions as commandlets
 }
 
 #Create Module Manifest
