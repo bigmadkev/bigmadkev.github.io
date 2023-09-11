@@ -27,7 +27,14 @@ images:
 
 https://learn.microsoft.com/en-us/powershell/module/powershellget/
 https://adamtheautomator.com/powershell-modules/
+https://essenceofcode.com/2022/05/05/debugging-powershell-modules-in-vs-code/
+
+https://devblogs.microsoft.com/scripting/debugging-powershell-script-in-visual-studio-code-part-1/
+https://devblogs.microsoft.com/scripting/debugging-powershell-script-in-visual-studio-code-part-2/
+https://github.com/MicrosoftDocs/PowerShell-Docs/blob/main/reference/docs-conceptual/dev-cross-plat/vscode/using-vscode.md
 https://valoremreply.com/post/creatingapowershellmodule/
+
+
 https://blog.devolutions.net/2021/03/local-powershell-module-repository-no-server-required/
 
 
