@@ -40,11 +40,10 @@ module:
 
     # blog content panel
     - path: github.com/hbstack/blog/modules/content-panel
-
+    
     # other modules
-    # - path: github.com/hugomods/google-analytics
+    - path: github.com/hugomods/google-analytics
     # - path: github.com/hugomods/google-adsense
-
 # recommended modules
     # check which modules were imported by recommended module by "hugo mod graph | grep recommended".
     # see also https://hbstack.dev/en/docs/modules/meta/.
