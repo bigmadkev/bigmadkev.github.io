@@ -2,9 +2,6 @@ module github.com/bigmadkev/bigmadkev.github.io
 
 go 1.18
 
-// replace github.com/hbstack/featured-image => C:\Users\kev\hbstack\featured-image
-// replace github.com/hbstack/blog => C:\Users\kev\hbstack\blog
-
 require (
 	github.com/GoogleChrome/workbox v7.0.0+incompatible // indirect
 	github.com/KaTeX/KaTeX v0.16.8 // indirect
