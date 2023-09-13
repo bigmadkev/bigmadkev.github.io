@@ -10,6 +10,7 @@ permalinks:
   blog: /blog/:year/:month/:title
 
 module:
+  workspace: "go.work"
   # For some regions can not access the proxy.golang.org, i.e. China.
   # See https://hugomods.com/en/blog/2023/04/go-and-hugo-proxy-servers/ for all available proxy servers.
   # proxy: https://goproxy.cn,direct
@@ -18,7 +19,7 @@ module:
   imports:
     # syntax highlighting, see https://hbstack.dev/en/docs/modules/syntax-highlighting/.
     - path: github.com/hbstack/syntax-highlighting/styles/github-dark
-  
+
     # icons modules
     - path: github.com/hugomods/icons/vendors/font-awesome
     # - path: github.com/hugomods/icons/vendors/mdi
@@ -40,7 +41,7 @@ module:
 
     # blog content panel
     - path: github.com/hbstack/blog/modules/content-panel
-    
+
     # other modules
     - path: github.com/hugomods/google-analytics
     # - path: github.com/hugomods/google-adsense
@@ -49,7 +50,7 @@ module:
     # see also https://hbstack.dev/en/docs/modules/meta/.
     # to remove unused modules, you need to replace the recommended module with modules your need.
     - path: github.com/hbstack/meta/recommended
-    
+
 outputs:
   home:
     - HTML
@@ -74,7 +75,7 @@ markup:
     lineNos: true
     lineNumbersInTable: false
     guessSyntax: true
-    
+
 # see https://gohugo.io/content-management/related/#configure-related-content
 related:
   includeNewer: true
