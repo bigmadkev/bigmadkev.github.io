@@ -3,8 +3,8 @@ title: "My First Hugo.io Post"
 date: 2023-09-02T23:02:11+01:00
 draft: false
 description:
-noindex: true
-featured: true
+noindex: false
+featured: false
 pinned: false
 comments: false
 images: false
