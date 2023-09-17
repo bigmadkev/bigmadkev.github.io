@@ -50,4 +50,7 @@ Enable-WindowsOptionalFeature -FeatureName "Containers-DisposableClientVM" -All 
 ```
 
 Open your start menu search for sandbox and you'll find windows sandbox.
-Open this, and it will open a clean install of windows that you can use to test scripts out or software without screwing your main machine up. Once you shut it down everything is lost.
+
+Open this, and it will open a clean i nstall of windows that you can use to test scripts out or software without screwing your main machine up. Once you shut it down everything is lost.
+
+https://www.thomasmaurer.ch/2019/05/how-to-configure-windows-sandbox/
