@@ -26,12 +26,13 @@ images:
 Some useful Git info
 
 <!--more-->
-# Winget Custom Install
+## Winget Custom Install
 installing Git with EnabledSymLinks and windows terminal intergratio
 ```powershell
 winget install Git.Git --custom "/o:EnableSymlinks=Enabled /Components=ext,ext\shellhere,ext\guihere,gitlfs,assoc,assoc_sh,windowsterminal,scalar"
 ```
-# Symbolic Links and Git on Windows
+## Symbolic Links and Git on Windows
+ Symbolic Links and Git on Windows
 Create the Symbolic link using gitbash and NOT Windows PowerShell
 
 ```bash
@@ -61,9 +62,9 @@ git commit -m "Finally adding the Windows PowerShell folder in correctly"
 git push
 ```
 
-# Git context menu items missing
+## Git context menu items missing
 
-## Hammer Option
+### Hammer Option
 
 1. Uninstall git
 ```powershell
@@ -82,7 +83,7 @@ winget install git
 ```
 6. Restart Explorer
 
-## Less Hammer
+### Less Hammer
 1. Open regedit as an admin
 1. CTRL+F - Look at Keys only and uncheck Match Whole String Only - git_
 1. point items to correct place example below
