@@ -27,12 +27,22 @@ images:
 Some useful Windows things that I always forget
 
 <!--more-->
-# Startup folder
-```start > run > shell:startup```
-# Widows Store Apps folder
-```shell:appsfolder```
+## Variables and Shortcuts
 
-# Sandbox
+### Startup folder
+```start > run > shell:startup```
+### Widows Store Apps folder
+```start > run > shell:appsfolder```
+### Roaming Appdata
+```%APPDATA%```
+### Program Files
+```%ProgramFiles%```
+### Userprofile
+```%USERPROFILE%```
+
+Can find more at https://ss64.com/nt/syntax-variables.html
+
+## Windows Sandbox
 Useful for testing scripts, if not already enabled you need to run the following in an elevated windows powershell terminal:
 
 ```powershell
@@ -41,6 +51,3 @@ Enable-WindowsOptionalFeature -FeatureName "Containers-DisposableClientVM" -All 
 
 Open your start menu search for sandbox and you'll find windows sandbox.
 Open this, and it will open a clean install of windows that you can use to test scripts out or software without screwing your main machine up. Once you shut it down everything is lost.
-
-
-
