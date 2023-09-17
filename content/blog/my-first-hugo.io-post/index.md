@@ -1,7 +1,6 @@
 ---
 title: "My First Hugo.io Post"
-date: 2023-09-02T23:02:11+01:00
-draft: false
+date: 2023-09-18T23:02:11+01:00
 description:
 noindex: false
 featured: false
