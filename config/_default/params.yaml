@@ -44,18 +44,18 @@ hb:
       repo: hbstack/theme
       repo_id: R_kgDOJP3qtA
       category_id: DIC_kwDOJP3qtM4CVavM
-  docs:
-    giscus:
-      repo: hbstack/theme
-      repo_id: R_kgDOJP3qtA
-      category_id: DIC_kwDOJP3qtM4CVavM
+  # docs:
+  #   giscus:
+  #     repo: hbstack/theme
+  #     repo_id: R_kgDOJP3qtA
+  #     category_id: DIC_kwDOJP3qtM4CVavM
 
   # gallery:
   #   thumbnail_size: "x640"
 
-seo:
-  favicons: # see https://hugomods.com/en/docs/seo/#favicons-module
-    icon: images/logo.png # use logo as favicon.
+# seo:
+#   favicons: # see https://hugomods.com/en/docs/seo/#favicons-module
+#     icon: images/logo.png # use logo as favicon.
 
 # see https://hugomods.com/en/docs/search/#site-parameters
 search:

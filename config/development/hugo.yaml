@@ -1,1 +1,4 @@
 newContentEditor: "code blog.code-workspace"
+
+module:
+  workspace: "go.work"

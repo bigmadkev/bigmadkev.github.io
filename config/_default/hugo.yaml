@@ -10,7 +10,6 @@ permalinks:
   blog: /blog/:year/:month/:title
 
 module:
-  workspace: "go.work"
   # For some regions can not access the proxy.golang.org, i.e. China.
   # See https://hugomods.com/en/blog/2023/04/go-and-hugo-proxy-servers/ for all available proxy servers.
   # proxy: https://goproxy.cn,direct
