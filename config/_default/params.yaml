@@ -53,9 +53,9 @@ hb:
   # gallery:
   #   thumbnail_size: "x640"
 
-# seo:
-#   favicons: # see https://hugomods.com/en/docs/seo/#favicons-module
-#     icon: images/logo.png # use logo as favicon.
+seo:
+   favicons: # see https://hugomods.com/en/docs/seo/#favicons-module
+     svg_icon: favicon.ico
 
 # see https://hugomods.com/en/docs/search/#site-parameters
 search:
