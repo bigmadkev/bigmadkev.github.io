@@ -39,6 +39,9 @@ Install-Module -Name Microsoft.WinGet.Client
 #see what is installed
 winget list
 
+#Get all the upgradeable applications
+winget list --upgrade-available
+
 #see what update installs are outdated
 winget update
 Name        Id                    Version      Available    Source
