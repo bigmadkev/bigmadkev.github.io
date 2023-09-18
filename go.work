@@ -1,39 +1,23 @@
-go 1.18
+go 1.21.1
 
-replace github.com/hbstack/announcement-bar => c:/hbstack/announcement-bar
-
-replace github.com/hbstack/back-to-top => c:/hbstack/back-to-top
-
-replace github.com/hbstack/base => c:/hbstack/base
-
-replace github.com/hbstack/blog => c:/hbstack/blog
-
-replace github.com/hbstack/bootstrap => c:/hbstack/bootstrap
-
-replace github.com/hbstack/code-block-panel => c:/hbstack/code-block-panel
-
-replace github.com/hbstack/content-panel => c:/hbstack/content-panel
-
-replace github.com/hbstack/docs => c:/hbstack/docs
-
-replace github.com/hbstack/featured-image => c:/hbstack/featured-image
-
-replace github.com/hbstack/footer => c:/hbstack/footer
-
-replace github.com/hbstack/gallery => c:/hbstack/gallery
-
-replace github.com/hbstack/hb => c:/hbstack/hb
-
-replace github.com/hbstack/header => c:/hbstack/header
-
-replace github.com/hbstack/meta => c:/hbstack/meta
-
-replace github.com/hbstack/search => c:/hbstack/search
-
-replace github.com/hbstack/site => c:/hbstack/site
-
-replace github.com/hbstack/socials => c:/hbstack/socials
-
-replace github.com/hbstack/theme => c:/hbstack/theme
-
+replace (
+    github.com/hbstack/announcement-bar => c:/hbstack/announcement-bar
+    github.com/hbstack/back-to-top => c:/hbstack/back-to-top
+    github.com/hbstack/base => c:/hbstack/base
+    github.com/hbstack/blog => c:/hbstack/blog
+    github.com/hbstack/bootstrap => c:/hbstack/bootstrap
+    github.com/hbstack/code-block-panel => c:/hbstack/code-block-panel
+    github.com/hbstack/content-panel => c:/hbstack/content-panel
+    github.com/hbstack/docs => c:/hbstack/docs
+    github.com/hbstack/featured-image => c:/hbstack/featured-image
+    github.com/hbstack/footer => c:/hbstack/footer
+    github.com/hbstack/gallery => c:/hbstack/gallery
+    github.com/hbstack/hb => c:/hbstack/hb
+    github.com/hbstack/header => c:/hbstack/header
+    github.com/hbstack/meta => c:/hbstack/meta
+    github.com/hbstack/search => c:/hbstack/search
+    github.com/hbstack/site => c:/hbstack/site
+    github.com/hbstack/socials => c:/hbstack/socials
+    github.com/hbstack/theme => c:/hbstack/theme
+)
 use .
