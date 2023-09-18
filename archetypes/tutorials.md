@@ -3,7 +3,7 @@ title: "{{ $title := replace .Name "-" " " }}{{ replace $title "   " " - "}}"
 # linkTitle:
 date: {{ .Date }}
 draft: true
-description: 
+description:
 noindex: false
 # comments: false
 nav_weight: 1000
@@ -14,9 +14,9 @@ nav_weight: 1000
 series:
   - Tutorial
 categories:
-#  - 
+#  -
 tags:
-#  - 
+#  -
 images:
 # menu:
 #   main:
@@ -24,7 +24,7 @@ images:
 #     params:
 #       icon:
 #         vendor: bs
-#         name: book
+#         name: mortarboard-fill
 #         color: '#e24d0e'
 ---
 
