@@ -24,8 +24,16 @@ images:
 #         color: '#e24d0e'
 ---
 
-Summary.
+Somethings I never remember using Visual Source Code
 
 <!--more-->
 ## Column Select
 HOLD down LEFT mouse button anywhere in the code then press and HOLD SHIFT+ALT . With all 3 Held down drag mouse in any direction with the mouse for column select.
+
+## Keyboard shortcuts
+```File > Preferences > Keyboard Shortcuts```
+```CTRL+K CTRL+S```
+
+## Change launch task build short cut
+In Keyboards search for ```Tasks: Run Task```
+Then remove the default for CTRL+SHIFT+B and put it on Run Task vs Run Task Build
