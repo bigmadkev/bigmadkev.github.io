@@ -1,6 +1,6 @@
 module github.com/bigmadkev/bigmadkev.github.io
 
-go 1.21.1
+go 1.21
 
 require (
 	github.com/GoogleChrome/workbox v7.0.0+incompatible // indirect
