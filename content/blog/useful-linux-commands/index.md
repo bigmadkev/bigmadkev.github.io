@@ -1,5 +1,5 @@
 ---
-title: "useful unix commands"
+title: useful linux commands
 date: 2023-09-20T20:09:50+01:00
 description:
 noindex: false
@@ -9,7 +9,7 @@ pinned: false
 series:
 #  -
 categories:
-#  -
+ - linux
 tags:
 #  -
 images:
@@ -24,11 +24,11 @@ images:
 #         color: '#e24d0e'
 ---
 
-Stuff that I need to remmeber at times!
+Stuff that I need to remember at times!
 
 <!--more-->
 
-What version of ubuntu am I running?
+What version of linux (ubuntu) am I running?
 ```bash
 lsb_release -a
 ```
