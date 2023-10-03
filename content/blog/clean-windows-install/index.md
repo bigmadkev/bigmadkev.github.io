@@ -39,11 +39,16 @@ winget install --accept-package-agreements --accept-source-agreements Google.Chr
 winget install --accept-package-agreements --accept-source-agreements GoLang.Go, Hugo.Hugo.Extended, OpenJS.NodeJS.LTS, Microsoft.VisualStudioCode, notepad++.notepad++, Microsoft.WindowsTerminal
 winget install --accept-package-agreements --accept-source-agreements Git.Git --custom "/o:EnableSymlinks=Enabled /Components=ext,ext\shellhere,ext\guihere,gitlfs,assoc,assoc_sh,windowsterminal,scalar"
 #Install Productivity
-winget install --accept-package-agreements --accept-source-agreements AutoHotkey.AutoHotkey, 9NBLGGH5R558, Microsoft.PowerToys
+winget install --accept-package-agreements --accept-source-agreements AutoHotkey.AutoHotkey, "Microsoft To Do", Microsoft.PowerToys
 #Install Other Things
-winget install --accept-package-agreements --accept-source-agreements Spotify.Spotify, calibre.calibre
+winget install --accept-package-agreements --accept-source-agreements calibre.calibre
 #Install Yearly Updated items
-winget install --accept-package-agreements --accept-source-agreements TechSmith.Snagit.2023
+winget install --accept-package-agreements --accept-source-agreements TechSmith.Snagit.2024
+```
+
+Open a standard windows powershell terminal
+```powershell
+winget install --accept-package-agreements --accept-source-agreements Spotify.Spotify
 ```
 
 *Reboot*
@@ -52,6 +57,5 @@ winget install --accept-package-agreements --accept-source-agreements TechSmith.
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 
-npm install -g npm@10.1.0
-npm install
+npm install -g npm@latest
 ```
