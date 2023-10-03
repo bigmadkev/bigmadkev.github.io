@@ -9,7 +9,7 @@ pinned: false
 series:
 #  -
 categories:
-#  -
+ - windows
 tags:
 #  -
 images:
@@ -41,16 +41,3 @@ Some useful Windows things that I always forget
 ```%USERPROFILE%```
 
 Can find more at https://ss64.com/nt/syntax-variables.html
-
-## Windows Sandbox
-Useful for testing scripts, if not already enabled you need to run the following in an elevated windows powershell terminal:
-
-```powershell
-Enable-WindowsOptionalFeature -FeatureName "Containers-DisposableClientVM" -All -Online
-```
-
-Open your start menu search for sandbox and you'll find windows sandbox.
-
-Open this, and it will open a clean i nstall of windows that you can use to test scripts out or software without screwing your main machine up. Once you shut it down everything is lost.
-
-https://www.thomasmaurer.ch/2019/05/how-to-configure-windows-sandbox/
