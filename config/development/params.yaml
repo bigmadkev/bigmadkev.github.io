@@ -1,15 +1,7 @@
-pwa:
-  caches:
-    font:
-      strategy: network-first
-    image:
-      strategy: network-first
-    script:
-      strategy: network-first
-    style:
-      strategy: network-first
-
-hugopress:
-  modules:
-    pwa:
-      disable: true
+hb:
+  content_panel:
+    bottom: 20px
+    repo:
+      branch: main
+      repo: bigmadkev/bigmadkev.github.io
+      service: github

@@ -3,7 +3,7 @@ title: "{{ $title := replace .Name "-" " " }}{{ replace $title "   " " - "}}"
 # linkTitle:
 date: {{ .Date }}
 draft: true
-description:
+description: 
 noindex: false
 # comments: false
 nav_weight: 1000
@@ -14,11 +14,11 @@ nav_weight: 1000
 series:
   - Docs
 categories:
-#  -
+#  - 
 tags:
-#  -
+#  - 
 images:
-#  -
+#  - 
 # menu:
 #   main:
 #     weight: 100

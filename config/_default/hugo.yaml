@@ -1,30 +1,63 @@
-baseURL: https://theme.hbstack.dev/
-title: HB Starter Theme Template
-# Copyright, the {year} is the placeholder of this year.
-copyright: "Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved."
+baseURL: https://bigkev.wiki/
+title: Big Kev Wiki
+copyright: "Copyright © 1980-{year} All Rights Reserved."
 defaultContentLanguage: en
-defaultContentLanguageInSubdir: true # disable this to remove the default language code from URL, i.e. /en/docs -> /docs.
+defaultContentLanguageInSubdir: false # disable this to remove the default language code from URL, i.e. /en/docs -> /docs.
 enableRobotsTXT: true
 timeout: 120s # images processing takes a long time, it's recommended to commit the resources folder for improve the build performance.
 enableEmoji: true
-
-title_sections: true # when false, remove the sections from the title.
-title_sections_depth: 0 # the depth of sections on the title.
-title_sections_depth_dir: end # when start, the depth is counting from the root sections.
-
 permalinks:
   blog: /blog/:year/:month/:title
+
+module:
+  # For some regions can not access the proxy.golang.org, i.e. China.
+  # See https://hugomods.com/en/blog/2023/04/go-and-hugo-proxy-servers/ for all available proxy servers.
+  # proxy: https://goproxy.cn,direct
+
+  # The order of module is very important, precedence from top to bottom.
+  imports:
+    # syntax highlighting, see https://hbstack.dev/en/docs/modules/syntax-highlighting/.
+    - path: github.com/hbstack/syntax-highlighting/styles/github-dark
+
+    # icons modules
+    - path: github.com/hugomods/icons/vendors/font-awesome
+    # - path: github.com/hugomods/icons/vendors/mdi
+    # - path: github.com/hugomods/icons/vendors/simple-icons
+    # - path: github.com/hugomods/icons/vendors/tabler
+    # - path: github.com/hugomods/icons/vendors/feather
+
+    # blog sidebar
+    - path: github.com/hbstack/blog/modules/sidebar/posts
+    - path: github.com/hbstack/blog/modules/sidebar/taxonomies
+
+    # blog comments engine
+    # - path: github.com/hbstack/blog/modules/giscus
+    # - path: github.com/hbstack/blog/modules/disqus
+    # - path: github.com/hbstack/blog/modules/utterances
+
+    # blog table of contents scrollspy
+    - path: github.com/hbstack/blog/modules/toc-scrollspy
+
+    # blog content panel
+    - path: github.com/hbstack/blog/modules/content-panel
+
+    # other modules
+    - path: github.com/hugomods/google-analytics
+    # - path: github.com/hugomods/google-adsense
+# recommended modules
+    # check which modules were imported by recommended module by "hugo mod graph | grep recommended".
+    # see also https://hbstack.dev/en/docs/modules/meta/.
+    # to remove unused modules, you need to replace the recommended module with modules your need.
+    - path: github.com/hbstack/meta/recommended
 
 outputs:
   home:
     - HTML
-    - Offline        # required by PWA module for displaying the offline pages.
     - RSS
     - SearchIndex    # required by search module.
-    - WebAppManifest # required by PWA module to make your site installable.
 
 taxonomies:
-  authors: authors       # multiple authors.
+  # authors: authors       # multiple authors.
   tags: tags
   categories: categories
   series: series
@@ -40,6 +73,7 @@ markup:
     noClasses: false
     lineNos: true
     lineNumbersInTable: false
+    guessSyntax: true
 
 # see https://gohugo.io/content-management/related/#configure-related-content
 related:
@@ -61,8 +95,15 @@ related:
   toLower: false
 
 security:
+  enableInlineShortcodes: false
+  exec:
+    allow: ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^pandoc$', '^nvim$', 'code$']
+    osEnv: ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
   funcs:
     getenv:
       - ^HUGO
       - CI$
       - PWD
+  http:
+    methods: ['(?i)GET|POST']
+    urls: ['.*']

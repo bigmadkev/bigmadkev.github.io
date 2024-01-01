@@ -1,46 +1,30 @@
-description: The starter theme template of HB (Hugo Bootstrap) Framework.
+description: What's in Kev's Head? Well here it is
 
 hb:
-  # override SASS variables, please replace the dash with underline, e.g. `list-group-color` should be `list_group_color`.
-  # styles:
-  #   primary: '#6610f2'
-
   # js_bundle_name: main # the JS bundle name.
   # css_bundle_name: main # the CSS bundle name.
-
-  full_width: false # when true, the layout takes full width globally.
-
+  logo: false
   header:
-    brand: HB # the brand name, leave it empty to use site's title.
-    logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
-      github: hbstack
-      # twitter: razonyang
-      rss: true
-      mastodon: https://techhub.social/@hbstack
+      github: bigmadkev
+      twitter: bigmadkev
+      linkedin: kevmccabe
+      instagram: bigmadkev
+      threads: bigmadkev
   footer:
+    powered_by: false
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
       _color: true # when false, remove the color of social icons.
-      github: hbstack
-      twitter: razonyang
-      rss: true
-      mastodon: https://techhub.social/@hbstack
-  terms:
-    # the paginate for categories, tags, series list pages.
-    paginate: 12
+      github: bigmadkev
+      twitter: bigmadkev
+      linkedin: kevmccabe
+      instagram: bigmadkev
+      threads: bigmadkev
   blog:
+    full_width: true # when true, the blog layout takes full width.
     sidebar:
-      profile:
-        # title: Profile title other than site title.
-        # description: Profile description other than site description.
-        company: COMPANY
-        location: Earth
-        socials:
-          github: hbstack
-          mastodon: https://techhub.social/@hbstack
-          rss: true
       posts:
         recent_count: 5 # the number of recent posts.
         featured_count: 5 # the number of featured posts.
@@ -48,47 +32,32 @@ hb:
         count: true # whether to show the number of posts associated to the item.
         limit: 10 # the maximum number of the item.
     paginate: 12 # paginate.
-    post_thumbnail_placeholder: HB THEME # the text of thumbnail placeholder, default to site title.
-    # post_thumbnail: false # whether to show the thumbnails.
-    # post_date_format: ":date_long" # see https://gohugo.io/functions/dateformat/#datetime-formatting-layouts.
+    post_thumbnail: true # whether to show the thumbnails.
+    post_date_format: ":date_full" # see https://gohugo.io/functions/dateformat/#datetime-formatting-layouts.
     home: # homepage settings.
-      # taxonomies: false # remove the taxonomies stat from the homepage.
+      taxonomies: false # remove the taxonomies stat from the homepage.
       featured_posts: 5 # the number of the featured posts.
       main_sections: # leave it empty to include all regular pages.
-        - docs
         - blog
         - tutorials
     giscus:
       repo: hbstack/theme
       repo_id: R_kgDOJP3qtA
       category_id: DIC_kwDOJP3qtM4CVavM
-  docs:
-    giscus:
-      repo: hbstack/theme
-      repo_id: R_kgDOJP3qtA
-      category_id: DIC_kwDOJP3qtM4CVavM
-  content_panel:
-    repo:
-      service: github # github or gitlab.
-      repo: hbstack/theme
-      branch: main
-      # subpath: exampleSite
+  # docs:
+  #   giscus:
+  #     repo: hbstack/theme
+  #     repo_id: R_kgDOJP3qtA
+  #     category_id: DIC_kwDOJP3qtM4CVavM
+
   # gallery:
   #   thumbnail_size: "x640"
 
 seo:
-  favicons: # see https://hugomods.com/en/docs/seo/#favicons-module
-    icon: images/logo.png # use logo as favicon.
+   favicons: # see https://hugomods.com/en/docs/seo/#favicons-module
+     svg_icon: favicon.ico
 
-# PWA settings, see https://hugomods.com/en/docs/pwa/#site-parameters.
-pwa:
-  debug: false
-  manifest:
-    background_color: '#712cf9'
-    theme_color: '#712cf9'
-    short_name: 'HB Theme'
-
-# see https://hugomods.com/search/configurations/.
+# see https://hugomods.com/en/docs/search/#site-parameters
 search:
   stall_threshold: 300
   min_match_char_length: 2

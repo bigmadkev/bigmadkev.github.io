@@ -1,4 +1,6 @@
+baseURL: https://bigkev.wiki/
 # see https://hugomods.com/en/docs/google-analytics/.
-# googleAnalytics: 'G-XXXXXXXXXX' # Google Analytics, please make sure you've imported the Google Analytics module.
-
+googleAnalytics: "G-ZXG3Q5Y6NE" # Google Analytics, please make sure you've imported the Google Analytics module.
+module:
+  workspace: "off"
 # disqusShortname: XXXXXX # The Disqus shortname.
