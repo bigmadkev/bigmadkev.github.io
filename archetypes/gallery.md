@@ -1,8 +1,8 @@
 ---
-title: "{{ $title := replace .Name "-" " " }}{{ replace $title "   " " - "}}"
+title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-description: 
+description:
 resources:
   - src: foo.jpg
     title: Foo

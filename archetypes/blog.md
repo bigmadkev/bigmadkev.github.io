@@ -2,19 +2,19 @@
 title: "{{ $title := replace .Name "-" " " }}{{ replace $title "   " " - "}}"
 date: {{ .Date }}
 draft: true
-description: 
+description:
 noindex: false
 featured: false
 pinned: false
 # comments: false
 series:
-#  - 
+#  -
 categories:
-#  - 
+#  -
 tags:
-#  - 
+#  -
 images:
-#  - 
+#  -
 # menu:
 #   main:
 #     weight: 100
