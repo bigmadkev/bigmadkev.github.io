@@ -82,20 +82,12 @@ seo:
    favicons: # see https://hugomods.com/en/docs/seo/#favicons-module
      svg_icon: favicon.ico
 
-# PWA settings, see https://hugomods.com/en/docs/pwa/#site-parameters.
-# pwa:
-#   debug: false
-#   manifest:
-#     background_color: '#712cf9'
-#     theme_color: '#712cf9'
-#     short_name: 'HB Theme'
-
 # see https://hugomods.com/search/configurations/.
 search:
   stall_threshold: 300
   min_match_char_length: 2
   case_sensitive: false
-  # shortcut_search: ["/"]
+  shortcut_search: ["/"]
 
 mermaid:
   # replace it with other CDNs or self-hosted URLs.
